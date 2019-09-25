@@ -3,12 +3,12 @@ Hey, a dashboard. Cool.
 Here we want to show exciting things today. You see a suggestion for the representation below.
 But it's up to you - next to each other, on top of each other or on the fly? Do whatever you think is cool - as long as you 
 manage to convince us that it really is ;-)
-first container:
+first container: >> done
     In the first container the 10 newest questions about "TypeScript" of Stackoverflow should be displayed.
-second container:
+second container: >> done
     In the second container he 10 newest questions on the topic "Angular2" of Stackoverflow should be displayed.
     The "Angular2" tag should ring here at the latest.
-third container:
+third container: >> done
     In the third container the 5 newest questions on the topic "Weather" of Stackoverflow and 
     5 arbitrary weather data from our weather data base are to be indicated. 
     And in a list at the same time, but always alternating  - otherwise it would be boring.

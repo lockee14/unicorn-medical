@@ -1,19 +1,17 @@
-/*
-  {
-    "Datum": "",
-    "Zeit": "",
-    "Temp. A.": "°C",
-    "Temp. 3": "°C",
-    "Feuchte A.": "%",
-    "Luftdruck": "hPa",
-    "Regen": "mm",
-    "Wind": "km/h",
-    "Richtung": "°",
-    "Helligkeit": "h"
-  },
-*/
+export interface WEATHER_DATA {
+  "Datum": string;
+  "Zeit": string;
+  "Temp. A.": number;
+  "Temp. 3": number;
+  "Feuchte A.": number;
+  "Luftdruck": number;
+  "Regen": number;
+  "Wind": number;
+  "Richtung": number;
+  "Helligkeit": number;
+}
 
-[
+export const WEATHERDATA = [
   {
     "Datum": "01.01.2016",
     "Zeit": "00:00",
